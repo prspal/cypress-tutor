@@ -9,5 +9,6 @@
         "clientSecret": "",
         "username": "",
         "password": ""
-    }
+    },
+    "testFiles": "**/*.feature"
 }

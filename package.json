@@ -12,6 +12,17 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^9.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "types": "^0.1.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/integration/stepDefinitions",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/output",
+      "filePrefix": "bdd-",
+      "fileSuffix": ".json"
+    }
   }
 }
