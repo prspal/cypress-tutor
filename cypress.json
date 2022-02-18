@@ -1,1 +1,13 @@
-{}
+{
+    "baseUrl": "https://automation.idi-qe.cyberreseng.com",
+    "ignoreTestFiles": "**/examples/**",
+    "viewPortWidth": 1920,
+    "viewPortHeight": 1080,
+    "env": {
+        "aaf_url": "",
+        "clientId": "",
+        "clientSecret": "",
+        "username": "",
+        "password": ""
+    }
+}
